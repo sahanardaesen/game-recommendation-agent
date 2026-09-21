@@ -81,8 +81,8 @@ python -m venv .venv
 # 5) One-shot recommendation (without interactive loop)
 .venv\Scripts\python.exe src\agent.py "recommend a horror themed game"
 
-# (Optional) Raw vector search test
-.venv\Scripts\python.exe src\indexer.py search "relaxing farming game"
+# (Optional) Retrieval-quality benchmark (CPU, no LLM — offline RAG health check)
+.venv\Scripts\python.exe src\benchmark.py --top-k 5
 ```
 
 ## Progress
