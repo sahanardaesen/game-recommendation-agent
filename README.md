@@ -29,8 +29,17 @@ question → embedding → ChromaDB (top relevant games) → Qwen2.5 (Ollama) �
 │   ├── indexer.py          # Embedding + ChromaDB indexing and search
 │   ├── rag.py              # RAG pipeline (retrieval + LLM recommendation)
 │   └── agent.py            # LangGraph orchestration + interactive CLI
+├── tests/
+│   └── test_agent.py       # Pytest: retrieval + LLM smoke tests
 ├── requirements.txt
 └── README.md
+```
+
+## Testing
+
+```powershell
+# Run automated tests (retrieval + LLM smoke tests)
+.venv\Scripts\python.exe -m pytest tests\ -v
 ```
 
 ## Setup and Usage
@@ -65,4 +74,4 @@ python -m venv .venv
 4. ✅ RAG pipeline (ChromaDB + LangChain + Qwen2.5)
 5. ✅ LLM integration quality (English data + prompts)
 6. ✅ LangGraph orchestration + Interactive CLI
-7. ⏳ Testing and development
+7. ✅ Automated tests (pytest)
