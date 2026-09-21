@@ -1,205 +1,205 @@
 [
   {
     "title": "The Witcher 3: Wild Hunt",
-    "genres": ["RPG", "Aksiyon"],
+    "genres": ["RPG", "Action"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-    "tags": ["açık dünya", "hikaye odaklı", "karakter gelişimi", "fantezi", "yetişkin"],
-    "description": "Geralt of Rivia'yı canlandırdığınız, karanlık fantezi dünyasında geçen, derin hikayesi ve yan görevleriyle ünlü bir rol yapma oyunu. Monsters avlayın, seçimler yapın ve kaderinizi belirleyin. Devasa açık dünyası ve dallanan anlatısıyla ödüllü bir yapım."
+    "tags": ["open world", "story driven", "character progression", "fantasy", "mature"],
+    "description": "Play as Geralt of Rivia in a dark fantasy world known for its deep story and side quests. Hunt monsters, make choices and decide your fate. An award-winning title with a massive open world and branching narrative."
   },
   {
     "title": "Red Dead Redemption 2",
-    "genres": ["Aksiyon", "Macera"],
+    "genres": ["Action", "Adventure"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-    "tags": ["açık dünya", "vahşi batı", "hikaye odaklı", "gerçekçi", "atmosferik"],
-    "description": "1899 yılında Amerika'nın vahşi batısında geçen, Arthur Morgan'ın hikayesini anlatan devasa açık dünya oyunu. İnanılmaz detaylı dünyası, sinematik hikayesi ve gerçekçi simülasyonlarıyla bir başyapıt. Avlanın, eyaletleri gezin ve kanunlardan kaçın."
+    "tags": ["open world", "wild west", "story driven", "realistic", "atmospheric"],
+    "description": "Arthur Morgan's story set in the American wild west of 1899. A masterpiece with an incredibly detailed world, cinematic narrative and realistic simulation. Hunt, travel across states and stay ahead of the law."
   },
   {
     "title": "Elden Ring",
-    "genres": ["Aksiyon", "RPG", "Souls-like"],
+    "genres": ["Action", "RPG", "Souls-like"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-    "tags": ["zor", "açık dünya", "karanlık fantezi", "boss savaşları", "keşif"],
-    "description": "George R.R. Martin'in katkılarıyla oluşturulan geniş bir karanlık fantezi dünyasında geçen zorlu bir aksiyon RPG. Özgür keşfi ve devasa boss savaşlarıyla bilinir. Her köşede tehlike, her galibiyette büyük bir tatmin duygusu sunar. Sabır ve azim isteyen bir deneyim."
+    "tags": ["hard", "open world", "dark fantasy", "boss fights", "exploration"],
+    "description": "A difficult action RPG set in a vast dark fantasy world created with George R.R. Martin. Famous for free exploration and massive boss fights. Danger lurks at every corner but victory is deeply rewarding. A test of patience and persistence."
   },
   {
     "title": "Stardew Valley",
-    "genres": ["Simülasyon", "RPG"],
+    "genres": ["Simulation", "RPG"],
     "platforms": ["PC", "Switch", "Mobile", "PS4", "Xbox One"],
-    "tags": ["rahatlatıcı", "çiftçilik", "bağımsız", "piksel", "sanatsal"],
-    "description": "Meşhur bir çiftliği miras aldığınız sıcacık bir köy yaşamı simülasyonu. Çiftçilik yapın, balık tutun, madencilik yapın, köylülerle arkadaş olun ve hatta evlenin. Stresi azaltan, tatlı ve bağımlılık yapan piksel sanatlı bir bağımsız yapım."
+    "tags": ["relaxing", "farming", "indie", "pixel art", "artistic"],
+    "description": "A warm village life simulation where you inherit a farm. Farm, fish, mine, befriend villagers and even get married. A charming, addictive indie title with pixel art that eases your stress."
   },
   {
     "title": "Cyberpunk 2077",
-    "genres": ["Aksiyon", "RPG"],
+    "genres": ["Action", "RPG"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-    "tags": ["bilim kurgu", "açık dünya", "siberpunk", "futuristik", "hikaye odaklı"],
-    "description": "Gelecekte Night City'nin neon dolu sokaklarında geçen, yüksek teknoloji ve düşük yaşam temalı bir açık dünya RPG. İmplantlar, hack'lemeler ve çok katmanlı görev sistemleriyle dolu. Karakterinizin yeteneklerini istediğiniz yönde geliştirin."
+    "tags": ["sci-fi", "open world", "cyberpunk", "futuristic", "story driven"],
+    "description": "An open world RPG in the neon streets of Night City, themed around high tech and low life. Filled with implants, hacking and layered mission systems. Build your character however you like."
   },
   {
     "title": "The Legend of Zelda: Breath of the Wild",
-    "genres": ["Macera", "Aksiyon"],
+    "genres": ["Adventure", "Action"],
     "platforms": ["Switch", "Wii U"],
-    "tags": ["açık dünya", "keşif", "bulmaca", "fantezi", "yenilikçi"],
-    "description": "Hyrule krallığının engin açık dünyasında özgürce keşfedebileceğiniz, fizik motoru odaklı bir macera oyunu. Her şeyi deneyebilirsiniz: dağa tırmanın, paraşütle süzülün, her bulmacayı kendi yönteminizle çözün. Özgürlük hissinin zirvesi."
+    "tags": ["open world", "exploration", "puzzle", "fantasy", "innovative"],
+    "description": "Freely explore the sprawling open world of Hyrule in a physics-driven adventure. Try anything: climb mountains, glide with a parachute, solve every puzzle your own way. The peak of player freedom."
   },
   {
     "title": "God of War (2018)",
-    "genres": ["Aksiyon", "Macera"],
+    "genres": ["Action", "Adventure"],
     "platforms": ["PC", "PS4", "PS5"],
-    "tags": ["hikaye odaklı", "nordik mitoloji", "tek çekim kamera", "baba-oğul", "epik"],
-    "description": "Kratos ve oğlu Atreus'un nordik mitolojide geçen yolculuğunu anlatan tek kamera çekimli epik bir aksiyon macera. Derin baba-oğul ilişkisi, devasa boss savaşları ve görkemli görselleriyle ödüllendirilmiş bir başyapıt."
+    "tags": ["story driven", "norse mythology", "single shot camera", "father son", "epic"],
+    "description": "An epic single-shot adventure telling the journey of Kratos and his son Atreus through Norse mythology. A deep father-son relationship, massive boss battles and magnificent visuals."
   },
   {
     "title": "Minecraft",
-    "genres": ["Sandbox", "Hayatta Kalma", "Yaratıcılık"],
+    "genres": ["Sandbox", "Survival", "Creative"],
     "platforms": ["PC", "Mobile", "Switch", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-    "tags": ["blok", "yaratıcılık", "keşif", "sonsuz", "çok oyunculu"],
-    "description": "Sınırsız bloklardan oluşan bir dünyada istediğiniz her şeyi inşa edebileceğiniz efsanevi bir sandbox oyun. Hayatta kalma modunda kaynak toplayıp zifiri karanlık gecelerde canavarlardan korunun veya yaratıcı modda hayal gücünüzün sınırlarını zorlayın."
+    "tags": ["blocks", "creativity", "exploration", "endless", "multiplayer"],
+    "description": "A legendary sandbox where you can build anything in a world made of infinite blocks. Gather resources and survive monster nights in survival mode or push your imagination in creative mode."
   },
   {
     "title": "Dark Souls III",
-    "genres": ["Aksiyon", "RPG", "Souls-like"],
+    "genres": ["Action", "RPG", "Souls-like"],
     "platforms": ["PC", "PS4", "Xbox One"],
-    "tags": ["zor", "karanlık fantezi", "boss savaşları", "dünya tasarımı", "gothic"],
-    "description": "Zorluk seviyesi ve atmosferiyle efsaneleşen serinin finali. Gotik dünyasında her düşman sizi öldürmek ister, her boss gerçek bir sınavdır. Ölümden ders çıkarın, kalıbınıza uygun silah ve zırh kombinleri geliştirin."
+    "tags": ["hard", "dark fantasy", "boss fights", "level design", "gothic"],
+    "description": "The final chapter of the legendary series known for difficulty and atmosphere. Every enemy wants to kill you and every boss is a real trial. Learn from death and craft weapon and armor combos that fit your build."
   },
   {
     "title": "Grand Theft Auto V",
-    "genres": ["Aksiyon", "Macera"],
+    "genres": ["Action", "Adventure"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-    "tags": ["açık dünya", "suç", "araba", "çok oyunculu", "gta"],
-    "description": "Los Santos'un suç dünyasında üç farklı karakterle geçen devasa bir açık dünya aksiyon oyunu. Soygunlar planlayın, şehirde özgürce gezin, araçlarla kaçış yapın. Çevrimiçi moduyla binlerce oyuncuyla birlikte oynama imkanı."
+    "tags": ["open world", "crime", "cars", "multiplayer", "gta"],
+    "description": "A massive open world action game in the criminal underworld of Los Santos with three playable characters. Plan heists, roam the city freely and escape in vehicles. Its online mode lets you play with thousands of others."
   },
   {
     "title": "Hollow Knight",
-    "genres": ["Platform", "Metroidvania", "Aksiyon"],
+    "genres": ["Platformer", "Metroidvania", "Action"],
     "platforms": ["PC", "Switch", "PS4", "Xbox One"],
-    "tags": ["bağımsız", "zor", "atmosferik", "el çizimi", "keşif"],
-    "description": "Yeraltı böcek krallığı Hallownest'te geçen, elle çizilmiş güzel bir metroidvania. Karanlık ve hüzünlü atmosferi, zorlu platform sahneleri ve unutulmaz boss dövüşleriyle bağımsız oyun dünyasının incisi."
+    "tags": ["indie", "hard", "atmospheric", "hand drawn", "exploration"],
+    "description": "A beautiful hand-drawn metroidvania set in the underground insect kingdom of Hallownest. Dark and melancholic atmosphere, tough platforming and unforgettable boss fights make it a gem of indie gaming."
   },
   {
     "title": "Skyrim: Special Edition",
-    "genres": ["RPG", "Aksiyon"],
+    "genres": ["RPG", "Action"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X", "Switch"],
-    "tags": ["açık dünya", "dragon", "fantezi", "mod desteği", "keşif"],
-    "description": "Ejderhaların gökyüzünü kararttığı Skyrim'de, efsanevi Dragonborn olarak kaderinizi bulun. Dağları aşın, mağaralarda hazineler keşfedin, büyüler ve silahlar arasında seçiminizi yapın. Mod topluluğunun yıllarca canlı tuttuğu bir klasik."
+    "tags": ["open world", "dragons", "fantasy", "mod support", "exploration"],
+    "description": "Find your destiny as the legendary Dragonborn while dragons darken the skies of Skyrim. Cross mountains, discover treasures in caves, choose between spells and weapons. A classic kept alive for years by its modding community."
   },
   {
     "title": "Portal 2",
-    "genres": ["Bulmaca", "Platform"],
+    "genres": ["Puzzle", "Platformer"],
     "platforms": ["PC", "PS3", "Xbox 360", "Switch"],
-    "tags": ["bulmaca", "fizik", "mizah", "hikaye odaklı", "iş birliği"],
-    "description": "Portal silahınızı kullanarak fizik kurallarını alt üst eden akıl dolu bulmaca oyunu. GLaDOS'un kara mizahıyla dolu tek kişilik kampanya ve iki kişilik kooperatif moduyla dikkat çeker. En zekice tasarlanmış oyunlardan biri."
+    "tags": ["puzzle", "physics", "humor", "story driven", "co-op"],
+    "description": "A brilliant puzzle game that turns physics rules upside down with your portal gun. A single player campaign full of GLaDOS's dark humor plus a two player cooperative mode. One of the smartest games ever designed."
   },
   {
     "title": "The Last of Us Part II",
-    "genres": ["Aksiyon", "Macera"],
+    "genres": ["Action", "Adventure"],
     "platforms": ["PS4", "PS5"],
-    "tags": ["hikaye odaklı", "duygusal", "hayatta kalma", "sinematik", "gizlilik"],
-    "description": "Yıkılmış bir Amerika'da hayatta kalmaya çalışan Ellie'nin duygusal ve karanlık hikayesini anlatan sinematik bir aksiyon macera. Gerilim dolu gizlilik mekanikleri ve tartışma yaratan güçlü anlatımıyla öne çıkar."
+    "tags": ["story driven", "emotional", "survival", "cinematic", "stealth"],
+    "description": "A cinematic action adventure about Ellie fighting to survive in a ruined America. Stands out with tense stealth mechanics and a powerful story that sparks debate."
   },
   {
     "title": "Dark Souls: Remastered",
-    "genres": ["Aksiyon", "RPG", "Souls-like"],
+    "genres": ["Action", "RPG", "Souls-like"],
     "platforms": ["PC", "PS4", "Xbox One", "Switch"],
-    "tags": ["zor", "karanlık fantezi", "eylem", "bağlantılı dünya", "klasisik"],
-    "description": "Souls türünün başlangıcı sayılan, birbirine ustaca bağlanmış dünyasıyla ünlü bir aksiyon RPG. Her kararınızın ağır sonuçları var. En zorlu oyun deneyimlerinden birini arayanlar için kesin bir öneri."
+    "tags": ["hard", "dark fantasy", "action", "interconnected world", "classic"],
+    "description": "The action RPG that started the Souls genre, famous for its masterfully interconnected world. Every decision carries heavy consequences. A must for anyone seeking one of the most challenging game experiences."
   },
   {
     "title": "Among Us",
-    "genres": ["Çok Oyunculu", "Sosyal Deduction", "Parti"],
+    "genres": ["Multiplayer", "Social Deduction", "Party"],
     "platforms": ["PC", "Mobile", "Switch"],
-    "tags": ["çok oyunculu", "sosyal", "eğlenceli", "hafif", "arkadaş"],
-    "description": "Uzay gemisinde görev yapan mürettebattan biri aslında bir impostor. Arkadaşlarınızla lobide birbirinizi suçlayın, görevlerinizi tamamlayın ve impostoru bulmaya çalışın. Basit konseptiyle saatlerce oynanabilen bir parti oyunu."
+    "tags": ["multiplayer", "social", "fun", "light", "friends"],
+    "description": "One of the crew members on a spaceship is actually an impostor. Accuse each other in lobby, complete tasks and try to find the impostor. A simple concept that provides hours of party fun with friends."
   },
   {
     "title": "Hades",
-    "genres": ["Roguelike", "Aksiyon"],
+    "genres": ["Roguelike", "Action"],
     "platforms": ["PC", "Switch", "PS4", "PS5", "Xbox One"],
-    "tags": ["roguelike", "hızlı", "hikaye odaklı", "yunan mitolojisi", "ödüllü"],
-    "description": "Yunan mitolojisinde, cehennemden kaçmaya çalışan Zagreus'u canlandırdığınız hızlı tempolu bir roguelike. Her ölümde hikaye ilerliyor, her denemede yeni yetenekler kazanıyorsunuz. Ölüm aslında yeni bir başlangıç."
+    "tags": ["roguelike", "fast paced", "story driven", "greek mythology", "award winning"],
+    "description": "A fast paced roguelike where you play as Zagreus trying to escape the underworld in Greek mythology. The story progresses with every death and you gain new abilities each run. Death is truly a new beginning."
   },
   {
     "title": "Celeste",
-    "genres": ["Platform", "Indie"],
+    "genres": ["Platformer", "Indie"],
     "platforms": ["PC", "Switch", "PS4", "Xbox One"],
-    "tags": ["zorlayıcı", "piksel", "duygusal", "müzik", "plattform"],
-    "description": "Madeline'in kendi içselliğiyle yüzleşerek Celeste Dağı'na tırmanışını anlatan hassas ve zorlu bir platform oyunu. Ölümcül hassas kontrolleri ve ruhani anlatımla akıl sağlığı temalarını işleyen samimi bir deneyim."
+    "tags": ["challenging", "pixel", "emotional", "music", "platformer"],
+    "description": "A precise and challenging platformer about Madeline climbing Celeste Mountain while confronting her inner self. Deadly precise controls and a heartfelt narrative about mental health."
   },
   {
     "title": "Fallout 4",
-    "genres": ["RPG", "Aksiyon"],
+    "genres": ["RPG", "Action"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-    "tags": ["açık dünya", "post-apokaliptik", "keşif", "crafting", "fps"],
-    "description": "Nükleer savaş sonrası yıkılmış Boston'da hayatta kalma mücadelesi verdiğiniz açık dünya RPG. Kaynak toplayın, silahlar inşa edin, yerleşimler kurun ve radyasyonlu bölgelerde özgürce keşfe çıkın."
+    "tags": ["open world", "post-apocalyptic", "exploration", "crafting", "fps"],
+    "description": "An open world RPG where you struggle to survive in a nuclear-wrecked Boston. Gather resources, build weapons, establish settlements and explore radioactive zones freely."
   },
   {
     "title": "Terraria",
-    "genres": ["Sandbox", "Macera"],
+    "genres": ["Sandbox", "Adventure"],
     "platforms": ["PC", "Mobile", "Switch", "PS4", "Xbox One"],
-    "tags": ["2d", "keşif", "fare pol" ,"madencilik", "boss", "crafting"],
-    "description": "2D bir dünyada kazmanızla toprakları kazıp, malzeme toplayıp, devasa yapılar inşa ettiğiniz ve sıra dışı canavarlarla savaştığınız bir sandbox oyunu. Minecraft'ın 2D fantezi kardeşi. Tamamen keşfe dayalı."
+    "tags": ["2d", "exploration", "mining", "bosses", "crafting"],
+    "description": "A sandbox where you dig with your pickaxe in a 2D world, collect materials, build massive structures and battle bizarre creatures. Minecraft's 2D fantasy sibling driven entirely by exploration."
   },
   {
     "title": "Bioshock Infinite",
-    "genres": ["FPS", "Aksiyon"],
+    "genres": ["FPS", "Action"],
     "platforms": ["PC", "PS4", "Xbox One"],
-    "tags": ["bilim kurgu", "hikaye odaklı", "fps", "atmosferik", "distopik"],
-    "description": "Gökyüzünde süzülen Columbia şehrinde geçen, sürükleyici bir hikayesi olan FPS. Elizabeth'in hikayesi ve oyunun beklenmedik kurgusuyla belleklere kazınan bir yapım. Güzel atmosferi ve ileri düzey anlatımıyla ödüller topladı."
+    "tags": ["sci-fi", "story driven", "fps", "atmospheric", "dystopian"],
+    "description": "A gripping FPS set in the floating city of Columbia. Elizabeth's story and the game's unexpected plot twist stay with you forever. An award winner with a beautiful atmosphere and advanced storytelling."
   },
   {
     "title": "It Takes Two",
-    "genres": ["Kooperatif", "Platform", "Macera"],
+    "genres": ["Co-op", "Platformer", "Adventure"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X", "Switch"],
-    "tags": ["kooperatif", "çift", "eğlenceli", "yaratıcı", "hikaye"],
-    "description": "Birlikte oynamak için tasarlanmış, ilişki temalı yenilikçi bir kooperatif macera oyunu. Her bölümde farklı mekanikler, farklı mini oyunlar ve iş birliğine dayalı bulmacalar bulunuyor. Arkadaş veya eşinizle oynamak için ideal."
+    "tags": ["co-op", "couple", "fun", "creative", "story"],
+    "description": "An innovative cooperative adventure about relationships, designed to be played together. Every chapter brings new mechanics, mini games and puzzles built on teamwork. Ideal to play with your friend or partner."
   },
   {
     "title": "Sekiro: Shadows Die Twice",
-    "genres": ["Aksiyon", "Souls-like"],
+    "genres": ["Action", "Souls-like"],
     "platforms": ["PC", "PS4", "Xbox One"],
-    "tags": ["zor", "feodal japonya", "boss savaşları", "ninja", "duel"],
-    "description": "Feodal Japonya'da, kılıcınızı kınından çekip intikam yemininizi yerine getirdiğiniz ultra zorlu bir aksiyon oyunu. Kılıç düelloları bir dans gibi, savunma ve atak dengesi terlemesine yol açıyor. Oynanışın sadeliğiyle adını tarihe yazdı."
+    "tags": ["hard", "feudal japan", "boss fights", "ninja", "duel"],
+    "description": "An ultra challenging action game in feudal Japan where you draw your blade to fulfill a revenge oath. Sword duels flow like a dance and the balance of defense and attack makes you sweat. Made its mark with the purity of its combat."
   },
   {
     "title": "Animal Crossing: New Horizons",
-    "genres": ["Simülasyon", "Yaşam"],
+    "genres": ["Simulation", "Life"],
     "platforms": ["Switch"],
-    "tags": ["rahatlatıcı", "köy", "piksel", "sosyal", "aktif"],
-    "description": "Issız bir adaya taşındığınız ve kendi küçük cennetinizi inşa ettiğiniz tatlı bir yaşam simülasyonu. Balık tutun, böcek toplayın, adanızı dekore edin ve sevimli köy sakinleriyle arkadaş olun. Stres atmak için biçilmiş kaftan."
+    "tags": ["relaxing", "village", "pixel", "social", "active"],
+    "description": "A sweet life simulation where you move to a deserted island and build your own little paradise. Fish, catch bugs, decorate your island and befriend adorable villagers. Made to relieve stress."
   },
   {
     "title": "The Witcher 2: Assassins of Kings",
-    "genres": ["RPG", "Aksiyon"],
+    "genres": ["RPG", "Action"],
     "platforms": ["PC", "Xbox 360"],
-    "tags": ["hikaye odaklı", "seçim", "karanlık", "fantezi", "yetişkin"],
-    "description": "Geralt'ın kral katili avına çıktığı, hikayesi seçimlerinize göre radikal şekilde değişen bir RPG. İki tamamen farklı oynanış sunar ve her seçimizin sonucu bir sonraki bölümü değiştirir. Sık düğümlü, karanlık bir kurgu."
+    "tags": ["story driven", "choices", "dark", "fantasy", "mature"],
+    "description": "An RPG where Geralt hunts a king's assassin and the story shifts radically based on your choices. Offers two completely different playthroughs and every choice shapes the next chapter. A dense, dark narrative."
   },
   {
     "title": "Subnautica",
-    "genres": ["Hayatta Kalma", "Macera"],
+    "genres": ["Survival", "Adventure"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Switch"],
-    "tags": ["su altı", "keşif", "korku", "inşa", "hayatta kalma"],
-    "description": "Yabancı bir gezegendeki okyanusun derinliklerine düştüğünüz, keşif ve hayatta kalma oyunu. Deniz altı üssünüzü kurun, derinlere inin ve dev deniz canlılarıyla karşılaşın. Su altı keşfinin en başarılı örneği."
+    "tags": ["underwater", "exploration", "horror", "building", "survival"],
+    "description": "A survival and exploration game where you crash into the deep ocean of an alien planet. Build your underwater base, dive deeper and meet giant sea creatures. The most successful example of underwater exploration."
   },
   {
     "title": "DOOM Eternal",
-    "genres": ["FPS", "Aksiyon"],
+    "genres": ["FPS", "Action"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X", "Switch"],
-    "tags": ["hızlı", "fps", "cehennem", "kanlı", "müzik"],
-    "description": "Cehennemin kapılarını aralayan, aşırı hızlı tempolu, adrenalin dolu bir FPS. Saniyeler içinde hayatınızı riske atmadan aksiyonu sürdürmek için düşman yakıtınızı (can) sürekli tazelemeniz gerekiyor. Saf ateş ve hiddet."
+    "tags": ["fast paced", "fps", "hell", "gory", "music"],
+    "description": "An adrenaline-fueled FPS that rips open the gates of hell. You constantly need to refresh your demon 'fuel' (health) to keep the frantic action going. Pure fire and fury."
   },
   {
     "title": "Disco Elysium",
-    "genres": ["RPG", "Gizem"],
+    "genres": ["RPG", "Mystery"],
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Switch"],
-    "tags": ["casus", "hikaye odaklı", "dialog", "bulmaca", "paranormal"],
-    "description": "Klasik RPG mekaniklerini dialog ve seçimlere odaklayan, oldukça yenilikçi bir bağımsız yapım. Pablo Escobar'ın çantasını unutun; kendinizi ara vermeden geçen bir polisiye düzleminde bulacaksınız. Tüm oyun metin ve seçimlere odaklıdır."
+    "tags": ["detective", "story driven", "dialogue", "puzzle", "paranormal"],
+    "description": "A highly innovative indie title focusing on classic RPG mechanics through dialogue and choices. Forget Pablo Escobar; you find yourself in a nonstop police procedural. The whole game revolves around text and decision making."
   },
   {
     "title": "Ori and the Will of the Wisps",
-    "genres": ["Platform", "Metroidvania"],
+    "genres": ["Platformer", "Metroidvania"],
     "platforms": ["PC", "Switch", "Xbox One"],
-    "tags": ["görsel", "duygusal", "müzik", "akıcı", "el yapımı"],
-    "description": "Büyülü bir ormanda geçen, sinematik bir platform metroidvania. El yapımı çizimleri ve büyüleyici müzikleriyle adeta bir sanat eseri. Hikayesi duygusal, oynanışı akıcı ve zorlu."
+    "tags": ["visual", "emotional", "music", "fluid", "handcrafted"],
+    "description": "A cinematic platformer metroidvania set in a magical forest. Handcrafted artwork and enchanting music make it a work of art. Emotional story, fluid gameplay and challenging platforming."
   }
 ]

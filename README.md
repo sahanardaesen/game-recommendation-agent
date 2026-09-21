@@ -1,64 +1,64 @@
 # Game Recommendation Assistant
 
-Doğal dilde soru sorduğunuz, RAG tabanlı bir oyun tavsiye asistanı.
+A RAG-based game recommendation assistant that answers natural language queries.
 
-## Yaptıkları
+## What It Does
 
-Kullanıcıdan gelen sorguyu (örn. "atmosferik korku odaklı oyun öner") anlamlı bir vektöre çevirip oyun veritabanındaki en alakalı sonuçları bulur, ardından açık kaynak bir LLM ile Türkçe tavsiye cümleleri üretir.
+Turns a user request (e.g. "atmospheric horror-focused game?") into a vector, retrieves the most relevant games from a vector database, then generates a proper recommendation using an open-source LLM.
 
 ```
-soru → embedding → ChromaDB (en alakalı oyunlar) → Qwen2.5 (Ollama) → Türkçe tavsiye
+question → embedding → ChromaDB (top relevant games) → Qwen2.5 (Ollama) → recommendation
 ```
 
-## Kullanılan Teknolojiler
+## Technologies
 
 - **Python**
-- **Hugging Face Transformers** (`sentence-transformers/all-MiniLM-L6-v2` — embedding modeli)
-- **ChromaDB** (vektör veritabanı)
-- **LangChain** (RAG pipeline — prompt kurma ve LLM çağrısı)
-- **Ollama + Qwen2.5 3B** (açık kaynak LLM — tavsiye üretimi)
-- **PEFT** (planlanıyor — isteğe bağlı ince ayar)
-- **LangGraph** (planlanıyor — pipeline orkestrasyonu)
+- **Hugging Face Transformers** (`sentence-transformers/all-MiniLM-L6-v2` — embedding model)
+- **ChromaDB** (vector database)
+- **LangChain** (RAG pipeline — prompt building and LLM call)
+- **Ollama + Qwen2.5 3B** (open-source LLM — recommendation generation)
+- **PEFT** (planned — optional fine-tuning)
+- **LangGraph** (planned — pipeline orchestration)
 
-## Proje Yapısı
+## Project Structure
 
 ```
 ├── data/
-│   └── games.json          # Oyun verileri (tür, etiket, açıklama)
+│   └── games.json          # Game data (genres, tags, description)
 ├── src/
-│   ├── indexer.py          # Embedding + ChromaDB indeksleme ve arama
-│   └── rag.py              # RAG pipeline (arama + LLM tavsiye)
+│   ├── indexer.py          # Embedding + ChromaDB indexing and search
+│   └── rag.py              # RAG pipeline (retrieval + LLM recommendation)
 ├── requirements.txt
 └── README.md
 ```
 
-## Kurulum ve Çalıştırma
+## Setup and Usage
 
-Ön koşul: [Ollama](https://ollama.com/download) kurulu ve `qwen2.5:3b` modeli indirilmiş olmalı.
+Prerequisite: [Ollama](https://ollama.com/download) installed with the `qwen2.5:3b` model pulled.
 
 ```powershell
-# 1) Sanal ortam oluştur
+# 1) Create virtual environment
 python -m venv .venv
 
-# 2) Bağımlılıkları kur
+# 2) Install dependencies
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 
-# 3) Oyunları vektör veritabanına indeksle
+# 3) Index the games into the vector database
 .venv\Scripts\python.exe src\indexer.py
 
-# 4) RAG ile oyun tavsiyesi al
-.venv\Scripts\python.exe src\rag.py "korku temalı oyun öner"
+# 4) Get a game recommendation
+.venv\Scripts\python.exe src\rag.py "recommend a horror themed game"
 
-# (Opsiyonel) Ham vektör araması testi
-.venv\Scripts\python.exe src\indexer.py search "rahatlatıcı çiftçilik oyunu"
+# (Optional) Raw vector search test
+.venv\Scripts\python.exe src\indexer.py search "relaxing farming game"
 ```
 
-## Gelişim Durumu
+## Progress
 
-1. ✅ Proje klasör yapısı ve bağımlılıklar
-2. ✅ Oyun veritabanı hazırlama
-3. ✅ Vektör embedding'ler ve vektör veritabanı
+1. ✅ Project scaffold and dependencies
+2. ✅ Game database
+3. ✅ Vector embeddings and vector database
 4. ✅ RAG pipeline (ChromaDB + LangChain + Qwen2.5)
-5. ⏳ LLM entegrasyonu geliştirme (prompt/cevap kalitesi)
-6. ⏳ LangGraph orkestrasyonu + İnteraktif CLI
-7. ⏳ Test ve geliştirme
+5. ✅ LLM integration quality (English data + prompts)
+6. ⏳ LangGraph orchestration + Interactive CLI
+7. ⏳ Testing and development

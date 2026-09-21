@@ -19,15 +19,15 @@ def load_games():
 
 def _game_to_text(game):
     return (
-        f"{game['title']}. Türler: {', '.join(game['genres'])}. "
-        f"Etiketler: {', '.join(game['tags'])}. "
-        f"Açıklama: {game['description']}"
+        f"{game['title']}. Genres: {', '.join(game['genres'])}. "
+        f"Tags: {', '.join(game['tags'])}. "
+        f"Description: {game['description']}"
     )
 
 
 def index():
     games = load_games()
-    print(f"Model yükleniyor: {MODEL_NAME}")
+    print(f"Loading model: {MODEL_NAME}")
     model = SentenceTransformer(MODEL_NAME)
 
     texts = [_game_to_text(g) for g in games]
@@ -42,7 +42,7 @@ def index():
         for g in games
     ]
 
-    print(f"Embedding oluşturuluyor ({len(games)} oyun)...")
+    print(f"Generating embeddings ({len(games)} games)...")
     embeddings = model.encode(texts, show_progress_bar=True)
 
     client = PersistentClient(path=str(CHROMA_DIR))
@@ -53,12 +53,12 @@ def index():
         embeddings=embeddings.tolist(),
         metadatas=metadatas,
     )
-    print(f"OK: {len(games)} oyun indekslendi -> {CHROMA_DIR}")
+    print(f"OK: {len(games)} games indexed -> {CHROMA_DIR}")
 
 
 def search(query_text, top_k=5):
     if not CHROMA_DIR.exists():
-        print("Önce 'index' komutunu çalıştırın.")
+        print("Run 'index' first.")
         sys.exit(1)
 
     model = SentenceTransformer(MODEL_NAME)
@@ -68,13 +68,13 @@ def search(query_text, top_k=5):
     query_emb = model.encode([query_text]).tolist()
     results = collection.query(query_embeddings=query_emb, n_results=top_k)
 
-    print(f"\nSorgu: '{query_text}'\n")
+    print(f"\nQuery: '{query_text}'\n")
     for i, (doc, meta, dist) in enumerate(
         zip(results["documents"][0], results["metadatas"][0], results["distances"][0]),
         start=1,
     ):
         title = meta["title"]
-        print(f"{i}. {title} (benzerlik: {1 - dist:.3f})")
+        print(f"{i}. {title} (similarity: {1 - dist:.3f})")
     return results
 
 

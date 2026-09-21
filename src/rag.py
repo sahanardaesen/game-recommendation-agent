@@ -16,16 +16,17 @@ PROMPT = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "Sen bir video oyunu uzmanısın. Kullanıcının isteğine en uygun oyunları "
-            "SADECE verilen bağlamdaki oyunlardan seçerek (varsa) üç oyun öner. "
-            "Her oyunu 1-2 cümleyle, kullanıcının isteğiyle ilişkilendirerek açıkla. "
-            "Bağlamda olmayan oyunu önerme. Cevap Türkçe olacak.",
+            "You are a video game expert. Recommend the most suitable games for the "
+            "user's request, choosing ONLY from the games given in the context. "
+            "Recommend up to three games. Briefly explain each one in 1-2 sentences, "
+            "linking them to the user's request. Do NOT recommend any game that is not "
+            "in the context. Answer in English.",
         ),
         (
             "human",
-            "Kullanıcı isteği: {question}\n\n"
-            "Bağlam (aday oyunlar): {context}\n\n"
-            "Tavsiyen:",
+            "User request: {question}\n\n"
+            "Context (candidate games): {context}\n\n"
+            "Your recommendation:",
         ),
     ]
 )
@@ -39,7 +40,7 @@ def _build_context(results):
     lines = []
     for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
         lines.append(
-            f"- {meta['title']} (Türler: {meta['genres']}; Etiketler: {meta['tags']}): {doc.split('Açıklama: ')[-1]}"
+            f"- {meta['title']} (Genres: {meta['genres']}; Tags: {meta['tags']}): {doc.split('Description: ')[-1]}"
         )
     return "\n".join(lines)
 
@@ -61,6 +62,6 @@ def recommend(question, top_k=5):
 
 
 if __name__ == "__main__":
-    query = " ".join(sys.argv[1:]) or "rahatlatıcı ve hikaye odaklı bir oyun öner"
-    print("Ollama modeli çalışıyor, cevap hazırlanıyor (ilk sefer 30-60 sn sürebilir)...\n")
+    query = " ".join(sys.argv[1:]) or "I want a relaxing farming game, any suggestions?"
+    print("Ollama model is running, preparing your answer (first run may take 30-60s)...\n")
     print(recommend(query))
