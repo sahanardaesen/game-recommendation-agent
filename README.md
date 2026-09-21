@@ -31,8 +31,27 @@ question → embedding → ChromaDB (top relevant games) → Qwen2.5 (Ollama) �
 │   └── agent.py            # LangGraph orchestration + interactive CLI
 ├── tests/
 │   └── test_agent.py       # Pytest: retrieval + LLM smoke tests
+├── remote/                 # GPU + PEFT: QLoRA fine-tuning, Colab demo, docs
+│   ├── make_dataset.py     # Synthetic LoRA training data generator
+│   ├── finetune.py         # QLoRA fine-tuning script (RTX 4060 / T4)
+│   └── colab_setup.ipynb   # Remote GPU demo (free T4)
 ├── requirements.txt
 └── README.md
+```
+
+## Remote GPU + Fine-tuning (PEFT)
+
+RAG pipeline'i üreten bu projede büyük bir LLM'e ince ayar gerekmez; ancak beceri kanıtı olarak küçük bir **QLoRA** demosu eklenmiştir (bkz. `remote/`):
+
+```powershell
+# 1) Training verisi üret (CPU)
+.venv\Scripts\python.exe remote\make_dataset.py
+
+# 2) Veri hattını GPU olmadan doğrula
+.venv\Scripts\python.exe remote\finetune.py --dryrun
+
+# 3) Gerçek eğitim (RTX 4060 vb. 8+ GB GPU gerekir)
+.venv\Scripts\python.exe remote\finetune.py --max-steps 100
 ```
 
 ## Testing
