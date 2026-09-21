@@ -18,7 +18,7 @@ question → embedding → ChromaDB (top relevant games) → Qwen2.5 (Ollama) �
 - **LangChain** (RAG pipeline — prompt building and LLM call)
 - **Ollama + Qwen2.5 3B** (open-source LLM — recommendation generation)
 - **PEFT** (planned — optional fine-tuning)
-- **LangGraph** (planned — pipeline orchestration)
+- **LangGraph** (pipeline orchestration — stateful graph)
 
 ## Project Structure
 
@@ -27,7 +27,8 @@ question → embedding → ChromaDB (top relevant games) → Qwen2.5 (Ollama) �
 │   └── games.json          # Game data (genres, tags, description)
 ├── src/
 │   ├── indexer.py          # Embedding + ChromaDB indexing and search
-│   └── rag.py              # RAG pipeline (retrieval + LLM recommendation)
+│   ├── rag.py              # RAG pipeline (retrieval + LLM recommendation)
+│   └── agent.py            # LangGraph orchestration + interactive CLI
 ├── requirements.txt
 └── README.md
 ```
@@ -46,8 +47,11 @@ python -m venv .venv
 # 3) Index the games into the vector database
 .venv\Scripts\python.exe src\indexer.py
 
-# 4) Get a game recommendation
-.venv\Scripts\python.exe src\rag.py "recommend a horror themed game"
+# 4) Start the interactive assistant (LangGraph)
+.venv\Scripts\python.exe src\agent.py
+
+# 5) One-shot recommendation (without interactive loop)
+.venv\Scripts\python.exe src\agent.py "recommend a horror themed game"
 
 # (Optional) Raw vector search test
 .venv\Scripts\python.exe src\indexer.py search "relaxing farming game"
@@ -60,5 +64,5 @@ python -m venv .venv
 3. ✅ Vector embeddings and vector database
 4. ✅ RAG pipeline (ChromaDB + LangChain + Qwen2.5)
 5. ✅ LLM integration quality (English data + prompts)
-6. ⏳ LangGraph orchestration + Interactive CLI
+6. ✅ LangGraph orchestration + Interactive CLI
 7. ⏳ Testing and development
